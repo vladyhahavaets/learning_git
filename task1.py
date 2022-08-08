@@ -1,6 +1,6 @@
 class House:
 
-    def __init__(self, temp):
+    def __init__(self, temp=15):
         self.temp = temp
 
     def heat(self):
